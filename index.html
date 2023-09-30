@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2 >Cal 990</h2>
+        <input type="text" id="view" readonly>
+        <div class="tags">
+            <button onclick="appendToview('1')">1</button>
+            <button onclick="appendToview('2')">2</button>
+            <button onclick="appendToview('3')">3</button>
+            <button onclick="appendToview('+')">+</button>
+            <button onclick="appendToview('4')">4</button>
+            <button onclick="appendToview('5')">5</button>
+            <button onclick="appendToview('6')">6</button>
+            <button onclick="appendToview('-')">-</button>
+            <button onclick="appendToview('7')">7</button>
+            <button onclick="appendToview('8')">8</button>
+            <button onclick="appendToview('9')">9</button>
+            <button onclick="appendToview('*')">*</button>
+            <button onclick="clearview()" class="c">C</button>
+            <button onclick="appendToview('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToview('/')">/</button>
+        </div>
+    </div>
+    <script src="scr.js"></script>
+</body>
+</html>
